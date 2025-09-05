@@ -245,6 +245,7 @@ FEATURES
 
 .books {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .book {
@@ -295,3 +296,10 @@ FEATURES
 .book__price {
     text-align: center;
 }
+
+/* 
+
+RECENTS
+
+*/
+
