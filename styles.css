@@ -467,3 +467,33 @@ RESPONSIVENESS
         margin-bottom: 24px;
     }
 }
+
+/* 
+
+BOOKS PAGE
+
+*/
+
+#books__body {
+    background-color: rgba(115, 66, 214, 0.1);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#books__main {
+    flex: 1;
+}
+
+.books__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    padding: 0 24px;
+}
+
+.books__header--title {
+    margin-bottom: 0;
+}
+
